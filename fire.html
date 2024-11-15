@@ -45,7 +45,7 @@
         </div>
         <div class="container-fluid" style="border-bottom: 1px black;position: sticky;">
             <div class="row">
-                <div class="col-sm-12">
+                <div class="col-md-12">
                     <nav class="navbar navbar-expand-md navbar-light " style=" background-color: (255,255,255)">
                         <img src="images/logo.png" classs="navbar-brand" alt="" height="60px" width="150px">
 
@@ -76,7 +76,7 @@
         <div class="container-fluid" style="margin-top: 10px;">
             <!-- <h2 class="py-3 text-center">Bootstrap Carousel</h2> -->
             <div class="row">
-                <div class="col-sm-12">
+                <div class="col-md-12">
                     <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
 
                         <div class="carousel-inner">
@@ -214,7 +214,7 @@
             <h2 class="text-uppercase font-weight-bolder display-6 text-center" style="font-weight: 500;"
                 class="animate__animated animate__fadeInLeft animate__delay-1s">Your Area</h2>
             <div class="row">
-                <div class="col-3" id="cd">
+                <div class="col-md-3" id="cd">
 
                     <div class="card">
                         <img src="images/call_files/01.jpg" class="car-img-top p-2" alt="" id="ffimg">
@@ -231,7 +231,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3" id="cd">
+                <div class="col-md-3" id="cd">
                     <div class="card">
                         <img src="images/call_files/01(2).jpg" alt="" class="car-img-top p-2" id="ffimg">
                         <div class="card-body">
@@ -246,7 +246,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3" id="cd">
+                <div class="col-md-3" id="cd">
                     <div class="card">
                         <img src="images/call_files/01(2).jpg" alt="" class="car-img-top p-2" id="ffimg">
                         <div class="card-body">
@@ -261,7 +261,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-3" id="cd">
+                <div class="col-md-3" id="cd">
                     <div class="card">
                         <img src="images/call_files/05(1).jpg" alt="" class="car-img-top p-2" id="ffimg">
                         <div class="card-body">
@@ -280,33 +280,46 @@
                 </div>
             </div>
         </div>
-        <div class="container mt-5">
+        <div class="container mt-5" id="con">
             <div class="row  mt-5">
                 <h4 class="text-center"> <i class="fa-solid fa-fire-flame-curved" style="color: rgb(243,104,0);"></i>
                     GALLERY</h4>
                 <h2 class="text-uppercase font-weight-bolder display-6 text-center" style="font-weight: 500;">Let's
                     check our latest photo <b style="color: rgb(243,104,0);;">gallery</b></h2>
 
-                <div class="col-md-12 d-flex mt-5 " style="gap: 30px;">
-                    <div id="i1">
-                        <img src="images/call_files/01(2).jpg" id="im" alt="" height="350px" width="350px">
-                    </div>
-                    <div id="i1">
-                        <img src="images/call_files/03(1).jpg" id="im" alt="" height="350px" width="350px">
-                    </div>
-                    <div id="i1">
-                        <img src="images/call_files/04(1).jpg" id="im" alt="" height="350px" width="350px">
+                <div class="col">
+                    <div class="card-group  d-flex mt-5" style="gap: 20px;">
+                        <div class="card">
+                            <img src="images/call_files/01(2).jpg" id="im" class="card-img-top" alt="" height="350px"
+                                width="350px">
+                        </div>
+                        <div class="card">
+                            <img src="images/call_files/03(1).jpg"id="im" class="card-img-top" alt="" height="350px"
+                                width="350px">
+                        </div>
+                        <div class="card">
+                            <img src="images/call_files/04(1).jpg"id="im" class="card-img-top" alt="" height="350px"
+                                width="350px">
+                        </div>
                     </div>
 
                 </div>
 
             </div>
+
+        </div>
+        <div class="container">
             <div class="row mt-4">
-                <div class="col-md-12 d-flex" style="gap: 30px;">
-                    <div id="i1"><img src="images/call_files/05(1).jpg" id="im" alt="" height="350px" width="350px">
-                    </div>
-                    <div id="i1"><img src="images/call_files/01.jpg" id="im" alt="" height="350px" width="350px"></div>
-                    <div id="i1"><img src="images/call_files/01(2).jpg" id="im" alt="" height="350px" width="350px">
+                <div class="col ">
+                    <div class="card-group d-flex" style="gap: 20px;">
+                        <div class="card"><img src="images/call_files/05(1).jpg"id="im" class="card-img-top" alt=""
+                                height="350px" width="350px">
+                        </div>
+                        <div class="card"><img src="images/call_files/01.jpg"id="im" class="card-img-top" alt="" height="350px"
+                                width="350px"></div>
+                        <div class="card"><img src="images/call_files/01(2).jpg"id="im" class="card-img-top" alt=""
+                                height="350px" width="350px">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -560,7 +573,8 @@
                 <div class="col-sm-6 text-center " style="background-color: rgb(34,29,29); color: rgb(255,255,255);">
                     <p class="mt-5">Copyright 2024 <b style="color: rgb(243,104,0);">FIREBRIG</b> All Right Reserved</p>
                 </div>
-                <div class="col-sm-6 d-flex text-center" style="align-items: end;justify-content: end;gap:20px; background-color: rgb(243,104,0);">
+                <div class="col-sm-6 d-flex text-center"
+                    style="align-items: end;justify-content: end;gap:20px; background-color: rgb(243,104,0);">
                     <i class="fa-brands fa-facebook" style="font-size: 28px; color: rgb(255,255,255);" class="p-5"></i>
                     <i class="fa-brands fa-x-twitter" style="font-size: 28px; color: rgb(255,255,255);" class="p-5"></i>
                     <i class="fa-brands fa-linkedin" style="font-size: 28px; color: rgb(255,255,255);" class="p-5"></i>
